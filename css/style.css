@@ -7,3 +7,48 @@
 [v-cloak] {
     display: none;
   }
+
+  body{
+    background-image: url(https://img.wallpapic.it/i6793-333-517/medium/legna-in-legno-marroni-luce-sfondo.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+.container{
+    
+    margin: 0 auto;
+    max-width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.container div{
+    width: calc(100% / 2);
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    margin: 20px;
+    font-size: 50px;
+    color: chocolate;
+    text-transform: uppercase;
+}
+
+h2{ 
+    padding: 10px;
+    border: 1px solid white;
+    background-color: rgb(187, 163, 98);
+    color: black;
+    border-radius: 20px;
+    font-size: 16px;
+}
+
+h2:hover{
+    background-color: goldenrod;
+    color: black;
+    cursor: pointer;
+}
