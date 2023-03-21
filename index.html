@@ -8,9 +8,11 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div id="app">
-        <div v-for="email in emails">
-            <h2>{{ email }}</h2>
+    <div id="app" v-cloak>
+        <div class="container">
+            <div v-show="emails.length >= 10" v-for="email in emails"  >
+                <h2>{{ email }}</h2>
+            </div>
         </div>
     </div>
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
